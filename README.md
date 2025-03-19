@@ -29,3 +29,15 @@ Add screenshots or a deployed GitHub Pages link here (optional).
 ### How to Run Locally
 1. Clone the repository:
 git clone https://github.com/dhirajdc200/dishhome-website.git
+
+2. Open `index.html` in your browser.
+
+---
+
+### 📂 Project Screenshots
+*(Add screenshots here)*
+
+---
+
+### 🙌 Contributions
+Project completed as part of a collaborative team assignment focused on UI/UX best practices and responsive web development.
