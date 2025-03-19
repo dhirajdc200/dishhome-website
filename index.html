@@ -1,0 +1,849 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>DishHome</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="./assets/img/favicon.png" rel="icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+</head>
+
+<body class="index-page">
+  
+    <header id="header" class="header d-flex align-items-center fixed-top">
+      <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+  
+        <a href="index.html" class="logo d-flex align-items-center">
+
+          <img class="sitename" src="./assets/img/dh.png" alt="DishHome Logo">
+        </a>
+      
+        <nav id="navmenu" class="navmenu">
+          <form class="form-inline my-2 my-lg-0 search-form d-flex" onsubmit="return handleSearch()">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search for...." aria-label="Search" id="searchInput">
+            <button class="btn btn-outline-danger my-2 my-sm-0 search-button" type="submit">Search</button>
+         </form>
+      
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+          <ul class="nav-list">
+            <li><a href="#hero" class="active">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#feedback">Feedback</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+    
+        </nav>
+      
+      </div>
+    </header>
+  
+    <main class="main">
+  
+      <!-- Home Section -->
+      <section id="hero" class="hero section dark-background">
+  
+        <div id="hero-carousel" data-bs-interval="5000" class="container carousel carousel-fade" data-bs-ride="carousel">
+  
+          <!-- Slide 1 -->
+          <div class="carousel-item active">
+            <div class="carousel-container">
+              <h2 class="animate__animated animate__fadeInDown">Welcome to DishHome</h2>
+              <p class="animate__animated animate__fadeInUp">Experience the ultimate in home entertainment and connectivity with DishHome. From lightning-fast internet speeds to a variety of TV packages and unbeatable combo deals, we have something for everyone. Join us today and elevate your digital lifestyle.</p>
+              <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+            </div>
+          </div>
+  
+          <!-- Slide 2 -->
+          <div class="carousel-item">
+            <div class="carousel-container">
+              <h2 class="animate__animated animate__fadeInDown">TV</h2>
+              <p class="animate__animated animate__fadeInUp">Dive into a world of endless entertainment with DishHome's TV packages. Choose from our Basic, Standard, and Premium options to find the perfect match for your viewing needs. Enjoy access to a wide range of channels, HD content, and exclusive programming that will keep you and your family entertained for hours.</p>
+              <a href="#services" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+            </div>
+          </div>
+  
+          <!-- Slide 3 -->
+          <div class="carousel-item">
+            <div class="carousel-container">
+              <h2 class="animate__animated animate__fadeInDown">Internet</h2>
+              <p class="animate__animated animate__fadeInUp">Stay connected with DishHome's high-speed internet packages. Whether you're a gamer, streamer, or a busy household, our internet plans are designed to meet your needs. Experience seamless browsing, lag-free gaming, and uninterrupted streaming with speeds ranging from 100 Mbps to 300 Mbps.</p>
+              <a href="#services" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+            </div>
+          </div>
+  
+          <!-- Slide 4 -->
+          <div class="carousel-item">
+            <div class="carousel-container">
+              <h2 class="animate__animated animate__fadeInDown">TV + Internet Combo</h2>
+              <p class="animate__animated animate__fadeInUp">Get the best of both worlds with DishHome's TV + Internet combo packages. Enjoy high-speed internet along with a variety of TV channels for the ultimate home entertainment experience. Our combo packages offer great value, combining the best of our internet and TV services into one convenient plan.</p>
+              <a href="#services" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+            </div>
+          </div>
+  
+          <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+          </a>
+  
+          <a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+          </a>
+  
+        <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
+          <defs>
+            <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"></path>
+          </defs>
+          <g class="wave1">
+            <use xlink:href="#wave-path" x="50" y="3"></use>
+          </g>
+          <g class="wave2">
+            <use xlink:href="#wave-path" x="50" y="0"></use>
+          </g>
+          <g class="wave3">
+            <use xlink:href="#wave-path" x="50" y="9"></use>
+          </g>
+        </svg>
+        
+      </section>
+<!--Home Section End-->
+
+  
+<!-- Packages Section -->
+<section id="packages" class="packages section">
+  <div class="container">
+    <h2>Get the best deals with DishHome.</h2>
+    <div class="tab-buttons">
+      <button id="internet-tab" class="tab-button active" onclick="showTab('internet')">Internet Packages</button>
+      <button id="tv-tab" class="tab-button" onclick="showTab('tv')">TV Packages</button>
+      <button id="combo-tab" class="tab-button" onclick="showTab('combo')">TV + Internet Packages</button>
+    </div>
+    <div id="internet-packages-content" class="tab-content active">
+      <div class="card">
+        <img src="./assets/img/router2.png" alt="100 Mbps Package">
+        <p class="h3">CATCH THE BIG OFFER - 100 Mbps</p>
+        <p>Enhance your nuclear family's digital life with our 100 Mbps Nuclear Family package, offering uninte...</p>
+        <p class="price">Rs. 925* /month</p>
+        <div class="button-container">
+          <button class="btn-g">View Package</button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./assets/img/router1.png" alt="200 Mbps Package">
+        <p class="h3">CATCH THE BIG OFFER - 200 Mbps</p>
+        <p>Seamlessly connect, entertain, and explore with our 200 Mbps Wholesome Family Package, designed for ...</p>
+        <p class="price">Rs. 1,170* /month</p>
+        <div class="button-container">
+          <button class="btn-g">View Package</button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./assets/img/router3.png" alt="300 Mbps Package">
+        <p class="h3">CATCH THE BIG OFFER - 300 Mbps</p>
+        <p>Rule the gaming world with our 300 Mbps Ultimate Gamer Package, ensuring lag-free gameplay for compe...</p>
+        <p class="price">Rs. 1,395* /month</p>
+        <div class="button-container">
+          <button class="btn-g">View Package</button>
+        </div>
+      </div>
+    </div>
+    <div id="tv-packages-content" class="tab-content">
+      <div class="card">
+        <img src="./assets/img/basic_tv-removebg-preview.png" alt="Basic TV Package">
+        <p class="h3">Basic TV Package</p>
+        <p>Enjoy a variety of channels with our Basic TV Package, perfect for families looking for entertainment ...</p>
+        <p class="price">Rs. 500* /month</p>
+        <div class="button-container">
+          <button class="btn-g">View Package</button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./assets/img/standard_tv-removebg-preview.png" alt="Standard TV Package">
+        <p class="h3">Standard TV Package</p>
+        <p>Get access to more channels and HD content with our Standard TV Package, offering something for everyone...</p>
+        <p class="price">Rs. 800* /month</p>
+        <div class="button-container">
+          <button class="btn-g">View Package</button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./assets/img/premium_tv-removebg-preview.png" alt="Premium TV Package">
+        <p class="h3">Premium TV Package</p>
+        <p>Experience the best of television with our Premium TV Package, featuring premium channels and exclusive content...</p>
+        <p class="price">Rs. 1,200* /month</p>
+        <div class="button-container">
+          <button class="btn-g">View Package</button>
+        </div>
+      </div>
+    </div>
+    <div id="combo-packages-content" class="tab-content">
+      <div class="card">
+        <img src="./assets/img/tv+internet-removebg-preview.png" alt="Combo Package 1">
+        <p class="h3">Combo Package 1</p>
+        <p>Get the best of both worlds with our Combo Package 1, offering high-speed internet and a variety of TV channels...</p>
+        <p class="price">Rs. 1,500* /month</p>
+        <div class="button-container">
+          <button class="btn-g">View Package</button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./assets/img/tv+internet-removebg-preview.png" alt="Combo Package 2">
+        <p class="h3">Combo Package 2</p>
+        <p>Enjoy premium services with our Combo Package 2, featuring high-speed internet and premium TV channels...</p>
+        <p class="price">Rs. 2,000* /month</p>
+        <div class="button-container">
+          <button class="btn-g">View Package</button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./assets/img/tv+internet-removebg-preview.png" alt="Combo Package 3">
+        <p class="h3">Combo Package 3</p>
+        <p>Get ultimate entertainment and connectivity with our Combo Package 3, combining the best internet speeds with top TV channels...</p>
+        <p class="price">Rs. 2,500* /month</p>
+        <div class="button-container">
+          <button class="btn-g">View Package</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Services Section -->
+<section id="services" class="services section">
+
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Services</h2>
+    <p>What we do offer</p>
+  </div><!-- End Section Title -->
+
+  <div class="container">
+
+    <div class="row gy-4">
+
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+        <div class="service-item position-relative">
+          <img src="./assets/img/fast_internet.jpg" alt="Fast Internet" class="service-image">
+          <a href="service-details.html" class="stretched-link">
+            <h3>Fast Internet</h3>
+          </a>
+          <p>Experience lightning-fast internet speeds for seamless browsing, streaming, and downloading.</p>
+        </div>
+      </div><!-- End Service Item -->
+
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <i class="fas fa-tools" style="color: #fd7e14;"></i>
+          </div>
+          <img src="./assets/img/installation-removebg-preview.png" alt="Free Installation" class="service-image">
+          <a href="service-details.html" class="stretched-link">
+            <h3>Free Installation</h3>
+          </a>
+          <p>Get started without any setup fees. We offer free installation to all new customers.</p>
+        </div>
+      </div><!-- End Service Item -->
+
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <i class="fas fa-wallet" style="color: #20c997;"></i>
+          </div>
+          <img src="./assets/img/payment.png" alt="Easy Payment" class="service-image">
+          <a href="service-details.html" class="stretched-link">
+            <h3>Easy Payment</h3>
+          </a>
+          <p>Enjoy flexible and easy payment options tailored to fit your budget.</p>
+        </div>
+      </div><!-- End Service Item -->
+
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <i class="fas fa-headset" style="color: #df1529;"></i>
+          </div>
+          <img src="./assets/img/24-removebg-preview.png" alt="Customer Service" class="service-image">
+          <a href="service-details.html" class="stretched-link">
+            <h3>24/7 Customer Service</h3>
+          </a>
+          <p>Our customer support team is available around the clock to assist you with any queries or issues.</p>
+        </div>
+      </div><!-- End Service Item -->
+
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <i class="fas fa-tv" style="color: #ff4b5c;"></i>
+          </div>
+          <img src="./assets/img/hd.png" alt="HD Channels" class="service-image">
+          <a href="service-details.html" class="stretched-link">
+            <h3>HD Channels</h3>
+          </a>
+          <p>Access to high-definition channels for a premium viewing experience.</p>
+        </div>
+      </div><!-- End Service Item -->
+
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="1000">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <i class="fas fa-tachometer-alt" style="color: #34ace0;"></i>
+          </div>
+          <img src="./assets/img/PLUG-IN-19.png" alt="Internet Speed Upgrade" class="service-image">
+          <a href="service-details.html" class="stretched-link">
+            <h3>Internet Speed Upgrade</h3>
+          </a>
+          <p>Flexible plans to upgrade internet speed as per user requirements.</p>
+        </div>
+      </div><!-- End Service Item -->
+
+    </div>
+
+  </div>
+
+</section><!-- /Services Section -->
+
+<!-- About Section -->
+<section id="about" class="about section">
+
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>About</h2>
+    <p>Who We Are</p>
+  </div><!-- End Section Title -->
+
+  <div class="container">
+
+    <div class="row gy-4">
+
+      <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
+        <p>
+          DishHome is a leading provider of satellite television services in Nepal. With a mission to deliver high-quality entertainment and information, we have been serving our customers with a diverse range of channels and value-added services.
+        </p>
+        <ul>
+          <li><i class="bi bi-check2-circle"></i> <span>Comprehensive Channel Lineup: Offering a wide variety of channels that cater to all age groups and interests.</span></li>
+          <li><i class="bi bi-check2-circle"></i> <span>Exceptional Customer Service: Our dedicated team is always ready to assist you with any queries or issues.</span></li>
+          <li><i class="bi bi-check2-circle"></i> <span>Innovative Solutions: Constantly evolving with the latest technology to provide you with the best viewing experience.</span></li>
+        </ul>
+      </div>
+
+      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+        <p>Explore more about our services and offerings to enjoy uninterrupted entertainment at your home.</p>
+        <a href="#" class="read-more"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+      </div>
+
+    </div>
+  </div>
+</section><!-- /About Section -->
+
+
+<!-- Call To Action Section -->
+<section id="call-to-action" class="call-to-action section dark-background">
+  <div class="container">
+    <div class="row" data-aos="zoom-in" data-aos-delay="100">
+      <div class="col-xl-9 text-center text-xl-start">
+        <h3>Join DishHome Today</h3>
+        <p>Experience the best in digital television and internet services with DishHome. Enjoy high-quality entertainment, reliable connectivity, and excellent customer service. Join us now and elevate your home entertainment experience.</p>
+      </div>
+      <div class="col-xl-3 cta-btn-container text-center">
+        <a class="cta-btn align-middle" href="#contact">Get in Touch</a>
+      </div>
+    </div>
+  </div>
+</section><!-- /Call To Action Section -->
+
+
+<!-- Reviews Section -->
+<section id="reviews" class="reviews section">
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Reviews</h2>
+    <p>What they are saying about us</p>
+  </div><!-- End Section Title -->
+
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+    <div class="swiper init-swiper">
+      <script type="application/json" class="swiper-config">
+        {
+          "loop": true,
+          "speed": 600,
+          "autoplay": {
+            "delay": 5000
+          },
+          "slidesPerView": "auto",
+          "pagination": {
+            "el": ".swiper-pagination",
+            "type": "bullets",
+            "clickable": true
+          },
+          "breakpoints": {
+            "320": {
+              "slidesPerView": 1,
+              "spaceBetween": 40
+            },
+            "1200": {
+              "slidesPerView": 3,
+              "spaceBetween": 10
+            }
+          }
+        }
+      </script>
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="review-item" >
+            <img src="assets/img/reviews/dhiraj.jpg" class="review-img" alt="">
+            <h3>Dhiraj DC</h3>
+            <div class="stars" id="review-stars">
+              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+            </div>
+            <p>
+              <i class="bi bi-quote quote-icon-left"></i>
+              <span>Dishhome has transformed my viewing experience. The HD channels are crystal clear, and the customer service is exceptional. Highly recommend!</span>
+              <i class="bi bi-quote quote-icon-right"></i>
+            </p>
+          </div>
+        </div><!-- End review item -->
+
+        <div class="swiper-slide">
+          <div class="review-item">
+            <img src="assets/img/reviews/bikram.jpg" class="review-img" alt="">
+            <h3>Bikram Khatri</h3>
+            <div class="stars" id="review-stars">
+              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-half"></i>
+            </div>
+            <p>
+              <i class="bi bi-quote quote-icon-left"></i>
+              <span>The internet service from Dishhome is superb. It is reliable and fast, making it perfect for both work and entertainment.</span>
+              <i class="bi bi-quote quote-icon-right"></i>
+            </p>
+          </div>
+        </div><!-- End review item -->
+
+        <div class="swiper-slide">
+          <div class="review-item">
+            <img src="assets/img/reviews/raj.jpg" class="review-img" alt="">
+            <h3>Raj Neupane</h3>
+            <div class="stars" id="review-stars">
+              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+            </div>
+            <p>
+              <i class="bi bi-quote quote-icon-left"></i>
+              <span>I have been using Dishhome for years and I am extremely satisfied. The variety of channels and the quality of service is unmatched.</span>
+              <i class="bi bi-quote quote-icon-right"></i>
+            </p>
+          </div>
+        </div><!-- End review item -->
+
+        <div class="swiper-slide">
+          <div class="review-item">
+            <img src="assets/img/reviews/aditya.jpg" class="review-img" alt="">
+            <h3>Aditya Khatri</h3>
+            <div class="stars" id="review-stars">
+              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+            </div>
+            <p>
+              <i class="bi bi-quote quote-icon-left"></i>
+              <span>Great service and fantastic support! Dishhome provides an excellent combination of TV and internet services. Highly recommend to anyone looking for quality and reliability.</span>
+              <i class="bi bi-quote quote-icon-right"></i>
+            </p>
+          </div>
+        </div><!-- End review item -->
+
+        <div class="swiper-slide">
+          <div class="review-item">
+            <img src="assets/img/reviews/yam.jpg" class="review-img" alt="">
+            <h3>Aayush Rasaili</h3>
+            <div class="stars" id="review-stars">
+              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+            </div>
+            <p>
+              <i class="bi bi-quote quote-icon-left"></i>
+              <span>Using Dishhome has been a game changer. The variety of channels and the uninterrupted service make it the best choice for entertainment.</span>
+              <i class="bi bi-quote quote-icon-right"></i>
+            </p>
+          </div>
+        </div><!-- End review item -->
+
+        <div class="swiper-slide">
+          <div class="review-item">
+            <img src="assets/img/reviews/jack.jpg" class="review-img" alt="">
+            <h3>Jack Gurung</h3>
+            <div class="stars" id="review-stars">
+              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-half"></i>
+            </div>
+            <p>
+              <i class="bi bi-quote quote-icon-left"></i>
+              <span>Dishhome's internet service has never let me down. It’s fast, reliable, and perfect for streaming and online gaming.</span>
+              <i class="bi bi-quote quote-icon-right"></i>
+            </p>
+          </div>
+        </div><!-- End review item -->
+
+        <div class="swiper-slide">
+          <div class="review-item">
+            <img src="assets/img/reviews/ava.jpg" class="review-img" alt="">
+            <h3>Ava Rijal</h3>
+            <div class="stars" id="review-stars">
+              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+            </div>
+            <p>
+              <i class="bi bi-quote quote-icon-left"></i>
+              <span>I love the channel variety and the picture quality that Dishhome offers. The customer support is always friendly and helpful. Highly recommend!</span>
+              <i class="bi bi-quote quote-icon-right"></i>
+            </p>
+          </div>
+        </div><!-- End review item -->
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+
+<!-- User Review Section -->
+<section id="user-reviews" class="user-reviews section">
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Submit Your Review</h2>
+    <p>We'd love to hear from you!</p>
+  </div>
+
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+    <form id="review-form" class="review-form">
+      <div class="form-group">
+        <label for="name" class="form-label">Name</label>
+        <input type="text" class="form-control" id="name" required>
+      </div>
+      <div class="form-group">
+        <label for="rating" class="form-label">Rating</label>
+        <div class="star-rating">
+          <input type="radio" id="star5" name="rating" value="5" required><label for="star5" title="5 stars">&#9733;</label>
+          <input type="radio" id="star4" name="rating" value="4"><label for="star4" title="4 stars">&#9733;</label>
+          <input type="radio" id="star3" name="rating" value="3"><label for="star3" title="3 stars">&#9733;</label>
+          <input type="radio" id="star2" name="rating" value="2"><label for="star2" title="2 stars">&#9733;</label>
+          <input type="radio" id="star1" name="rating" value="1"><label for="star1" title="1 star">&#9733;</label>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="review" class="form-label">Review</label>
+        <textarea class="form-control" id="review" rows="3" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit Review</button>
+    </form>
+  </div>
+</section>
+<!-- /Reviews Section -->
+
+
+<!-- Feedback Section -->
+<section id="feedback" class="feedback section">
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Feedback</h2>
+    <p>We value your feedback</p>
+  </div><!-- End Section Title -->
+
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+    <div class="feedback-form">
+      <h3>Leave Feedback</h3>
+      <form id="feedbackForm">
+        <div class="form-group">
+          <label for="feedbackName">Name</label>
+          <input type="text" id="feedbackName" name="feedbackName" required>
+        </div>
+        <div class="form-group">
+          <label for="feedbackEmail">Email</label>
+          <input type="email" id="feedbackEmail" name="feedbackEmail" required>
+        </div>
+        <div class="form-group">
+          <label for="feedbackMessage">Message</label>
+          <textarea id="feedbackMessage" name="feedbackMessage" rows="5" required></textarea>
+        </div>
+        <div class="form-group">
+          <button type="submit">Submit Feedback</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</section><!-- /Feedback Section -->
+
+
+
+    <!-- Faq Section -->
+<section id="faq" class="faq section">
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Frequently Asked Questions</h2>
+    <p>Frequently Asked Questions</p>
+  </div><!-- End Section Title -->
+
+  <div class="container" data-aos="fade-up">
+    <div class="row">
+      <div class="col-12">
+        <div class="custom-accordion" id="accordion-faq">
+          <div class="accordion-item">
+            <h2 class="mb-0">
+              <button class="btn btn-link" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-faq-1">
+                What services does Dishhome offer?
+              </button>
+            </h2>
+
+            <div id="collapse-faq-1" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion-faq">
+              <div class="accordion-body">
+                Dishhome offers a variety of services including high-definition TV channels, high-speed internet packages, and customer support for installation and troubleshooting.
+              </div>
+            </div>
+          </div>
+          <!-- .accordion-item -->
+
+          <div class="accordion-item">
+            <h2 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-faq-2">
+                How do I subscribe to Dishhome services?
+              </button>
+            </h2>
+            <div id="collapse-faq-2" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion-faq">
+              <div class="accordion-body">
+                You can subscribe to Dishhome services by visiting our website and selecting the package that suits your needs, or by calling our customer service at +977 082574628.
+              </div>
+            </div>
+          </div>
+          <!-- .accordion-item -->
+
+          <div class="accordion-item">
+            <h2 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-faq-3">
+                How do I troubleshoot my Dishhome TV signal?
+              </button>
+            </h2>
+
+            <div id="collapse-faq-3" class="collapse" aria-labelledby="headingThree" data-parent="#accordion-faq">
+              <div class="accordion-body">
+                If you are experiencing signal issues, try rebooting your set-top box and check all cable connections. If the problem persists, contact our support team for further assistance.
+              </div>
+            </div>
+          </div>
+          <!-- .accordion-item -->
+
+          <div class="accordion-item">
+            <h2 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-faq-4">
+                What should I do if my internet connection is slow?
+              </button>
+            </h2>
+
+            <div id="collapse-faq-4" class="collapse" aria-labelledby="headingFour" data-parent="#accordion-faq">
+              <div class="accordion-body">
+                First, try restarting your router and modem. Ensure there are no large downloads or streaming services running simultaneously. If the issue continues, please contact our support team.
+              </div>
+            </div>
+          </div>
+          <!-- .accordion-item -->
+
+          <div class="accordion-item">
+            <h2 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-faq-5">
+                How can I pay my Dishhome bill?
+              </button>
+            </h2>
+
+            <div id="collapse-faq-5" class="collapse" aria-labelledby="headingFive" data-parent="#accordion-faq">
+              <div class="accordion-body">
+                You can pay your bill online through our website, via our mobile app, or by visiting one of our authorized payment centers.
+              </div>
+            </div>
+          </div>
+          <!-- .accordion-item -->
+
+          <div class="accordion-item">
+            <h2 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-faq-6">
+                How long does the installation process take?
+              </button>
+            </h2>
+
+            <div id="collapse-faq-6" class="collapse" aria-labelledby="headingSix" data-parent="#accordion-faq">
+              <div class="accordion-body">
+                The installation process usually takes between 2-3 hours, depending on the complexity of the setup and the number of services being installed.
+              </div>
+            </div>
+          </div>
+          <!-- .accordion-item -->
+
+          <div class="accordion-item">
+            <h2 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-faq-7">
+                Are there any ongoing promotions or discounts?
+              </button>
+            </h2>
+
+            <div id="collapse-faq-7" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion-faq">
+              <div class="accordion-body">
+                Yes, we frequently offer promotions and discounts for new and existing customers. Check our website or contact our sales team for the latest deals.
+              </div>
+            </div>
+          </div>
+          <!-- .accordion-item -->
+
+          <div class="accordion-item">
+            <h2 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-faq-8">
+                How do I contact Dishhome customer service?
+              </button>
+            </h2>
+
+            <div id="collapse-faq-8" class="collapse" aria-labelledby="headingEight" data-parent="#accordion-faq">
+              <div class="accordion-body">
+                You can contact our customer service via phone at +977 082574628, email at info@dishhome.np, or through our live chat on the website.
+              </div>
+            </div>
+          </div>
+          <!-- .accordion-item -->
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section><!-- /Faq Section -->
+
+
+    
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <p>Contact Us</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4">
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+              <i class="bi bi-geo-alt flex-shrink-0"></i>
+              <div>
+                <h3>Address</h3>
+                <p>Ghorahi-15, Dang, Nepal</p>
+              </div>
+            </div><!-- End Info Item -->
+
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+              <i class="bi bi-telephone flex-shrink-0"></i>
+              <div>
+                <h3>Call Us</h3>
+                <p>+977 9868935456</p>
+              </div>
+            </div><!-- End Info Item -->
+
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+              <i class="bi bi-envelope flex-shrink-0"></i>
+              <div>
+                <h3>Email Us</h3>
+                <p>info@dishhome.np</p>
+              </div>
+            </div><!-- End Info Item -->
+
+          </div>
+          
+          <div class="col-lg-8">
+            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+                </div>
+
+                <div class="col-md-6 ">
+                  <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                  <button type="submit">Send Message</button>
+                </div>
+
+              </div>
+            </form>
+          </div><!-- End Contact Form -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer dark-background">
+    <div class="container">
+      <h3 class="sitename">DishHome</h3>
+      <p>Connecting You to a World of Entertainment</p>
+      <div class="social-links d-flex justify-content-center">
+        <a href=""><i class="bi bi-twitter-x"></i></a>
+        <a href=""><i class="bi bi-facebook"></i></a>
+        <a href=""><i class="bi bi-instagram"></i></a>
+        <a href=""><i class="bi bi-linkedin"></i></a>
+      </div>
+      <div class="container">
+        <div class="copyright">
+          <p> Copyright © 2024, Dhiraj Corporation</p>
+          <p>This website made for educational purposed only. This is not for business promotions or something like that.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
