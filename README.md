@@ -22,7 +22,11 @@ A fully responsive website designed and developed for DishHome, a leading digita
 Achieved full responsiveness across all screen sizes and improved user engagement with interactive service package previews.
 
 ## 💻 Demo
-Add screenshots or a deployed GitHub Pages link here (optional).
+![image](https://github.com/user-attachments/assets/1da3b211-0ac5-4ad9-957c-e4dda5f8a472)
+![image](https://github.com/user-attachments/assets/1f56e06f-3f6a-430b-8b0c-3c6ecdc6dd20)
+![image](https://github.com/user-attachments/assets/bd214728-0701-4601-8069-e4cee72e12e5)
+
+.
 
 ---
 
@@ -31,11 +35,6 @@ Add screenshots or a deployed GitHub Pages link here (optional).
 git clone https://github.com/dhirajdc200/dishhome-website.git
 
 2. Open `index.html` in your browser.
-
----
-
-### 📂 Project Screenshots
-*(Add screenshots here)*
 
 ---
 
