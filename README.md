@@ -25,6 +25,9 @@ Achieved full responsiveness across all screen sizes and improved user engagemen
 ![image](https://github.com/user-attachments/assets/1da3b211-0ac5-4ad9-957c-e4dda5f8a472)
 ![image](https://github.com/user-attachments/assets/1f56e06f-3f6a-430b-8b0c-3c6ecdc6dd20)
 ![image](https://github.com/user-attachments/assets/bd214728-0701-4601-8069-e4cee72e12e5)
+![image](https://github.com/user-attachments/assets/29cf65a8-6d79-414d-9cd9-367d54ec83a7)
+![image](https://github.com/user-attachments/assets/ee4b1a48-3434-4c14-8613-ddb9dc498d06)
+
 
 .
 
