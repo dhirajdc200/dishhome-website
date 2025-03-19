@@ -43,3 +43,10 @@ git clone https://github.com/dhirajdc200/dishhome-website.git
 
 ### 🙌 Contributions
 Project completed as part of a collaborative team assignment focused on UI/UX best practices and responsive web development.
+
+
+
+## 📢 Disclaimer
+This website project was developed for educational purposes only as part of a school assignment.  
+DishHome is a registered brand, and this project is not affiliated with, endorsed by, or connected to DishHome in any official capacity.  
+All content is used purely for learning and portfolio demonstration.
